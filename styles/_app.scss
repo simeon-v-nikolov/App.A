@@ -1,0 +1,29 @@
+.app-btn {
+    display: inline-block;
+}
+
+.app-btn.btn-a {
+    color: red;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 100%;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.screen-a {
+    margin-top: 20px;
+    padding: 20px;
+    width: 600px;
+    max-width: 600px;
+    height: 400px;
+    overflow-y: auto;
+    border: 3px solid red;
+    color: red;
+}
+
+:focus {
+    outline: none !important;
+}
